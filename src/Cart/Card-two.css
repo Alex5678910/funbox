@@ -1,0 +1,123 @@
+.Container-wrapper{
+    width: 345px;
+    height:480px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, transparent 35px, #d91667 0);
+    position: relative;
+    /*margin-top: 8%;*/
+
+}
+
+.Container{
+    width: 335px;
+    height: 470px;
+    border-radius: 15px;
+    background: linear-gradient(135deg, transparent 33px, #f2f2f2 0);
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    overflow: hidden;
+}
+
+.Cat{
+    background-image: url("../images/cat.png");
+    width: 349px;
+    height: 459px;
+    background-position: bottom 75px right 3px;
+    background-repeat: no-repeat;
+    position: relative;
+    cursor: pointer;
+}
+
+.Block-header{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: 'Trebuchet MS', "Open Sans", serif;
+}
+
+h1{
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 48px;
+    font-family: 'Trebuchet MS', "Open Sans", serif;
+}
+
+h2{
+    font-weight: normal;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', "Open Sans", serif;
+}
+
+h4{
+    padding-top: 15px;
+    width: 107px;
+    color: #666666;
+    font-weight: 100;
+    font-family: 'Trebuchet MS', "Open Sans", serif;
+    font-size: 14px;
+}
+
+p{
+    color: #666666;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.Span{
+    border-radius: 50%;
+    background-color: #d91667;
+    position: absolute;
+    line-height: 1;
+    padding: 11px 33px 11px 33px;
+    bottom: 180px;
+    right: 30px;
+}
+
+.Span p{
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-size: 42px;
+    font-family: 'Trebuchet MS', "Open Sans", serif;
+}
+
+.Span p.Small{
+    font-size: 21px;
+}
+
+.Description{
+    color: white;
+    font-family: 'Trebuchet MS', "Open Sans", serif;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.Button{
+    cursor: pointer;
+    position: absolute;
+    top: -31px;
+    right: 45px;
+    width: 10em;
+    height: 2.5em;
+    text-shadow: 0 -1px 1px #777;
+    color: #fff;
+    outline: none;
+    border: 2px solid #d91667;
+    border-radius: 5px;
+    box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #d91667;
+    background: linear-gradient(#e7abc2, #e382a6 48%, #b82f67 52%, #d91667);
+    font-family: 'Trebuchet MS', "Open Sans", serif;
+}
+
+.Button:active{
+    top: -32px;
+    right: 46px;
+    box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+}
+
+@media (max-width: 1024px) {
+    .Container-wrapper{
+        margin-top: 15%;
+    }
+}
