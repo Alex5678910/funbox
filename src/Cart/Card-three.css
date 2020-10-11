@@ -1,0 +1,103 @@
+.Container-wrapper-three {
+    width: 345px;
+    height: 480px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, transparent 35px, #b6b63c 0);
+    position: relative;
+    /*margin-top: 8%;*/
+}
+.Container-wrapper-three:hover{
+    cursor: pointer;
+    filter: grayscale(.95);
+    color: #666666;
+}
+
+.Container-three {
+    width: 335px;
+    height: 470px;
+    border-radius: 15px;
+    background: linear-gradient(135deg, transparent 33px, white 0);
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    overflow: hidden;
+}
+
+.Cat-three {
+    background-image: url("../images/cat.png");
+    width: 349px;
+    height: 459px;
+    background-position: bottom 90px right 3px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.Block-header-three {
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: 'Trebuchet MS', "Open Sans", serif;
+}
+
+h1 {
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 48px;
+    font-family: 'Trebuchet MS', "Open Sans", serif;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', "Open Sans", serif;
+}
+
+h6 {
+    padding-top: 15px;
+    width: 126px;
+    color: #666666;
+    font-weight: 100;
+    font-family: 'Trebuchet MS', "Open Sans", serif;
+    font-size: 14px;
+}
+
+p {
+    color: #666666;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.Span-three {
+    border-radius: 50%;
+    background-color: #b6b63c;
+    position: absolute;
+    line-height: 1;
+    padding: 11px 33px 11px 33px;
+    bottom: 193px;
+    right: 30px;
+}
+
+.Span-three p {
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-size: 42px;
+    font-family: 'Trebuchet MS', "Open Sans", serif;
+}
+
+.Span-three p.Small-three {
+    font-size: 21px;
+}
+
+.Description-three {
+    color: #ffff66;
+    font-family: 'Trebuchet MS', "Open Sans", serif;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 4%;
+}
+
+@media (max-width: 1024px) {
+    .Container-wrapper-three{
+        margin-top: 15%;
+    }
+}

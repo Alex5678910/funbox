@@ -1,0 +1,63 @@
+
+
+.Main {
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/background.png");
+    box-shadow: 13px -3px 274px 0 rgba(0,0,0,0.32) inset;
+    -webkit-box-shadow: 13px -3px 274px 0 rgba(0,0,0,0.32) inset;
+    -moz-box-shadow: 13px -3px 274px 0 rgba(0,0,0,0.32) inset;
+}
+
+.Text {
+    color: #ffffff;
+    text-align: center;
+    font-weight: normal;
+    font-family: "Exo 2", "Open Sans", serif;
+    padding-top: 2%;
+    padding-bottom: 1.5%;
+}
+
+.Flex-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 1150px) {
+    .Flex-box{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .Main {
+        width: 100%;
+        height: 85rem;
+        background-image: url("images/background.png");
+        background-repeat: repeat-y;
+        box-shadow: 13px -3px 274px 0 rgba(0,0,0,0.32) inset;
+        -webkit-box-shadow: 13px -3px 274px 0 rgba(0,0,0,0.32) inset;
+        -moz-box-shadow: 13px -3px 274px 0 rgba(0,0,0,0.32) inset;
+    }
+}
+
+@media (max-width: 678px) {
+    .Flex-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Main {
+        width: 100%;
+        height: 115rem;
+        background-image: url("images/background.png");
+        background-repeat: repeat-y;
+        box-shadow: 13px -3px 274px 0 rgba(0,0,0,0.32) inset;
+        -webkit-box-shadow: 13px -3px 274px 0 rgba(0,0,0,0.32) inset;
+        -moz-box-shadow: 13px -3px 274px 0 rgba(0,0,0,0.32) inset;
+    }
+    @media (max-width: 366px) {
+        .Main{
+           display: none;
+        }
+    }
+}
