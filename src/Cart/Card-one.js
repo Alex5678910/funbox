@@ -35,7 +35,11 @@ class CardOne extends Component {
                         </div>
 
                         <div className={'Cat-one'}>
-                            <button type={'button'} className={'Button-one'} style={this.state.divStyle}>Купить</button>
+                            <button
+                                type={'button'}
+                                className={'Button-one'}
+                                style={this.state.divStyle}
+                                onClick={this.props.newTile}>Купить</button>
                             <div className={'Span-one'}><p>0,5</p><p className={'Small-one'}>кг</p></div>
                         </div>
                     </div>
